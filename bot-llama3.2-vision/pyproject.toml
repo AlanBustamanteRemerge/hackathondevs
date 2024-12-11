@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bot-llama3-2-vision"
+version = "0.1.0"
+description = ""
+authors = ["AlanBustamanteRemerge <alan.bustamante@remerge.io>"]
+readme = "README.md"
+packages = [{include = "bot_llama3"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.1.0"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
